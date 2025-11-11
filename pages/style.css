@@ -1,0 +1,265 @@
+@media screen and (min-width:0px) and (max-width:480px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    body {
+        background-color: red;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    max-width: 80px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo>a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo>a:hover {
+    color: rgb(230, 71, 71);
+    ;
+}
+
+.carousel img {
+    width: 100%;
+    height: 1200px;
+    /* height: 100vh; */
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 1100px;
+}
+
+.btn>button {
+    border-radius: 7px;
+    background-color: white;
+    color: white;
+    border-style: none;
+    font-size: 17px;
+}
+
+.btn>button:hover {
+    color: rgb(230, 71, 71);
+    ;
+}
+
+.nav li {
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: rgb(230, 71, 71);
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.lp {
+    cursor: default;
+}
+
+.logo h1 {
+    font-size: 30px;
+    margin: 30px;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: rgb(230, 71, 71);
+}
+
+.women:visited {
+    color: black;
+}
+
+.cards {
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+
+}
+
+.card {
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+}
+
+.card:hover {
+    box-shadow: 9px 9px 9px rgb(136, 133, 133);
+    transition: 1s;
+    transform: scale(1);
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+}
+
+.back:hover {
+    color: red;
+}
+
+.footer {
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+    background-color: rgb(229, 240, 240);
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.list a:hover {
+    color: rgb(230, 71, 71);
+}
+
+.develope a {
+    font-size: 20px;
+}
+
+.develope a {
+    text-decoration: none;
+    color: black;
+}
+
+.develope a:hover {
+    color: rgb(230, 71, 71);
+}
+
+.develope {
+    background-color: rgb(229, 240, 240);
+    padding: 20px;
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+}
+
+.container {
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn1 {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn1:hover {
+    /* background-color: rgb(229, 240, 240); */
+    box-shadow: 5px 3px 8px 3px rgb(187, 187, 187);
+}
+
+.go {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.go:hover {
+    color: rgb(230, 71, 71);
+}
+
+.btn3 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box {
+    box-shadow: 5px 3px 8px 3px black;
+
+}
+
+.signup {
+    text-decoration: none;
+    color: black;
+}
+
+.signup:hover {
+    color: rgb(230, 71, 71);
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+}
+
+.login:hover {
+    color: rgb(230, 71, 71);
+    ;
+}
+
+.fa-cart-shopping {
+    color: rgb(116, 114, 114);
+}
+
+.fa-cart-shopping:hover {
+    color: black;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.cart:active {
+    color: red;
+}
+.btn:hover{
+    box-shadow: 5px 3px 8px 3px rgb(116, 113, 113);
+}
+.btns:hover{
+    box-shadow: 5px 3px 8px 3px rgb(116, 113, 113);
+}
+
+.whatsapp{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+.whatsapp img{
+    width: 100%;
+}
